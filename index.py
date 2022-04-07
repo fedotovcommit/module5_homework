@@ -18,8 +18,8 @@ def plural_form(number, word_1, word_2, word_3):
 
 
 def html(tag, **kwargs):
-    def decorator (decorated_function):
-        def wrapper_over_decorated_function (tag_value):
+    def decorator(decorated_function):
+        def wrapper_over_decorated_function(tag_value):
             result = ''
 
             # список закрывающих тегов
