@@ -57,6 +57,7 @@ print(11, plural_form(11, 'яблоко', 'яблока', 'яблок'))
 print(121, plural_form(121, 'яблоко', 'яблока', 'яблок'))
 print(125, plural_form(125, 'яблоко', 'яблока', 'яблок'))
 
+
 @html('body')
 @html('div', width=200, height=100)
 @html('a', href='https://yandex.ru/')
